@@ -1,0 +1,17 @@
+{
+  "arrowParens": "avoid",
+  "bracketSameLine": false,
+  "bracketSpacing": true,
+  "embeddedLanguageFormatting": "auto",
+  "jsxSingleQuote": true,
+  "organizeImportsSkipDestructiveCodeActions": true,
+  "printWidth": 120,
+  "quoteProps": "consistent",
+  "semi": false,
+  "singleAttributePerLine": false,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "plugins": ["prettier-plugin-organize-imports"]
+}

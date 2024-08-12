@@ -1,0 +1,31 @@
+@import "@styles/variables";
+.default-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: $primary-color;
+}
+
+.header {
+  flex: 0 0 auto;
+}
+
+.main {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 56px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  color: $accent-color;
+}
+
+.footer {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background-color: $secondary-color;
+}
