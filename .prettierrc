@@ -1,9 +1,11 @@
 {
+  "jsxSingleQuote": false,
+  "jsxBracketSameLine": false,
+  "endOfLine": "lf",
   "arrowParens": "avoid",
   "bracketSameLine": false,
   "bracketSpacing": true,
   "embeddedLanguageFormatting": "auto",
-  "jsxSingleQuote": true,
   "organizeImportsSkipDestructiveCodeActions": true,
   "printWidth": 120,
   "quoteProps": "consistent",
