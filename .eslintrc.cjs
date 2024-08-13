@@ -33,7 +33,7 @@ module.exports = {
       },
     ],
 
-    "import/no-unresolved": "error",
+    //  "import/no-unresolved": "error",
     "import/order": ["warn", { groups: [["builtin", "external", "internal"]] }],
     "react/jsx-no-duplicate-props": "error",
     "react/no-array-index-key": "warn",

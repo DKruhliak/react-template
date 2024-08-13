@@ -9,7 +9,7 @@
  * @param {number} $minValue - The minimum size of the property.
  * @param {number} $type - The type of adaptation: 1 for smaller than container, 2 for larger than container, else for always.
  */
-@mixin adaptive-value ($property, $fromValue, $minValue, $type) {
+@mixin adaptive-value($property, $fromValue, $minValue, $type) {
   $appendableValue: $fromValue - $minValue;
   $containerWithoutUnit: remove-unit(#{$container});
   $minBpWithoutUnit: remove-unit(#{$xs});

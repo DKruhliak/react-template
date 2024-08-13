@@ -1,14 +1,9 @@
-import { FC } from "react";
+import { FC } from "react"
 
-import "./Footer.scss";
+import "./Footer.scss"
 
 const Footer: FC = () => {
+  return <div className={"footer__footer"}>Footer</div>
+}
 
-  return (
-    <div className={"footer__footer"}>
-      Footer
-    </div>
-  );
-};
-
-export default Footer;
+export default Footer
